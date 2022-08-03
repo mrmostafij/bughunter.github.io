@@ -1,0 +1,296 @@
+/* =====================================================
+                        Common CSS
+===================================================== */
+
+body{
+    background-color: #d2d2d2;
+    margin: 0 auto !important;
+}
+
+/* =====================================================
+                        Header Area
+===================================================== */
+
+#header_area {
+    background: #0e0d12;
+    border-top: 2px solid #e2e2e2;
+    padding: 40px 0;
+    margin: 0 auto !important;
+    width: 100%;
+    clear: both;
+    //background-image: url(img/bg/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 88% ;
+    border-bottom: none;
+}
+
+/* ==================== Logo Area ==================== */
+
+#header_area .logo_area img {
+    height: auto;
+    max-height: 100%;
+    opacity: 1.0;
+    transition: 0.5s ease-in-out;
+}
+
+#header_area .logo_area img:hover {
+    opacity: 0.5;
+}
+
+/* ==================== Menu Area ==================== */
+
+#header_area .menu_area {
+    text-align: right;
+    padding: 25px;
+}
+
+#header_area ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+#header_area ul li {
+    display: inline-block;
+    position: relative;
+}
+
+#header_area ul li a {
+    color: #f2e0c8!important;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 10px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+#header_area ul li a i {
+    text-transform: uppercase;
+    padding: 0 2px;
+    text-align: center;
+}
+
+#header_area ul li a:hover {
+    color: #bd8d4c!important;
+    
+}
+
+#header_area ul li a.active {
+    color: #bd8d4c !important;
+}
+
+/* =====================================================
+                        Slider Area
+===================================================== */
+
+#slider_area {
+    background-color: #0e0d12;
+    height: 800px !important;
+    max-height: 1080px !important;
+    width: auto;
+    //background-image: url(img/bg/bg_first.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: none;
+}
+
+/* =====================================================
+                        Content Area
+===================================================== */
+
+#content_area .inner_content {
+    margin-top: 18%;
+}
+
+
+#content_area img {
+    width: 100%;
+    box-shadow: 0px 0px 20px #000000;
+    border-radius: 20px;
+}
+
+#content_area h1 {
+    color: #877c6d;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content_area p {
+    color: #877c6d;
+    margin-top: auto;
+    text-align: justify;
+    margin: 15px auto;
+}
+
+#first_content_area {
+    height: 800px !important;
+    max-height: 1080px !important;
+    width: auto;
+    background-image: url(img/bg/bg_first.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: none;
+}
+
+#second_content_area, #third_content_area {
+    height: 800px !important;
+    max-height: 1080px !important;
+    width: auto;
+    background-image: url(img/bg/bg_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: none;
+}
+
+#fourth_content_area {
+    height: 800px !important;
+    max-height: 1080px !important;
+    width: auto;
+    background-image: url(img/bg/bg_last.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+#second_content_area .row {
+    flex-direction: row-reverse;
+}
+
+#fourth_content_area .row {
+    flex-direction: row-reverse;
+}
+
+/* =====================================================
+                        Footer Area
+===================================================== */
+
+#footer_area{
+    background: #f2e0c8;
+    padding: 10px 0;
+    margin: 0 auto !important;
+    height: 265px !important;
+    max-height: 1080px !important;
+    width: 100%;
+    clear: both;
+    background-image: url(img/bg/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: none;
+}
+
+#footer_area .inner_footer {
+    margin-top: 120px !important;
+    margin-bottom: 0px !important;
+}
+
+#footer_area .col-md-4 {
+    border-left: 1px solid #a5a5a541;
+}
+
+#footer_area .col-md-4:first-child {
+    border-right: none;
+}
+
+#footer_area h2 {
+    color: #f2e0c8;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#footer_area p {
+    color: #f2e0c8;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+#footer_area p a {
+    color: #f2e0c8;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#footer_area p a i{
+    color: #c97200;
+    background-color: #f2e0c8;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 2px;
+    text-decoration: none;
+    transition: 0.9s ease-in-out;
+}
+
+#footer_area p a:hover i{
+    color: #f2e0c8;
+    background-color: #c97200;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 2px;
+    text-decoration: none;
+}
+
+#footer_area p span{
+    color: #f2e0c8;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* =====================================================
+                        Copyright Area
+===================================================== */
+
+#copyright_area{
+    background-color: #0e0d12;
+    border-top: 2px solid #877c6d;
+    min-height: 85px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#copyright_area .inner_copyright {
+    margin-top: 40px;
+}
+
+#copyright_area h2{
+    color: #f2e0c8;
+    font-family: "Source Sans Pro", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#copyright_area h2 a{
+    color: #f2e0c8;
+    font-family: "Source Sans Pro", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#copyright_area #copyright {
+    text-align: left !important;
+}
+
+#copyright_area #author {
+    text-align: right !important;
+}

@@ -1,0 +1,25 @@
+#about_area{
+    height: 1180px !important;
+    max-height: 1200px !important;
+    width: auto;
+    background-image: url(img/bg/bg_last.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: none;
+}
+
+#about_area h1{
+    color: #877c6d;
+    margin:auto;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#about_area p{
+    color: #bc9864;
+    margin:auto;
+    font-size: 22px;
+    padding-top: 30px;
+    text-align: justify;
+}

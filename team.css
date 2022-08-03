@@ -1,0 +1,37 @@
+#team_area{
+    height: 1180px !important;
+    max-height: 1200px !important;
+    width: auto;
+    background-image: url(img/bg/bg_last.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: none;
+    margin: 0 auto;
+}
+
+#team_area h1{
+    color: #877c6d;
+    margin:auto;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#team_area p{
+    color: #bc9864;
+    font-size: 22px;
+    margin:auto;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.card_area{
+    padding-top: auto;
+    margin-top: 60px;
+}
+
+
+.card_area .row .our-team{
+    max-width: 100%;
+    width: 75%;
+}
